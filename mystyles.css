@@ -3,6 +3,7 @@
 body {
    margin:0;
    background-image: url("pink_clouds.jpg");
+   background-size: cover;
 }
 
 ul.headNav {
