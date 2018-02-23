@@ -1,6 +1,9 @@
 /* This is my style sheet for my website */
 
-body {margin:0;}
+body {
+   margin:0;
+   background-image: url("pink_clouds.jpg");
+}
 
 ul.headNav {
     list-style-type: none;
