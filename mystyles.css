@@ -13,7 +13,7 @@ ul.headNav {
     width: 100%;
 }
 
-li {
+li.headNav {
     float: left;
 }
 
