@@ -4,6 +4,7 @@ body {
    margin:0;
    background-image: url("pink_clouds.jpg");
    background-size: cover;
+   background-repeat: no-repeat;
 }
 
 ul.headNav {
