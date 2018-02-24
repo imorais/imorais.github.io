@@ -5,7 +5,7 @@ body {
    background-image: url("pink_clouds.jpg");
    background-size: cover;
    background-repeat: no-repeat;
-   background-position: center;
+   /*background-position: center;*/
    opacity: 0.5;
 }
 
