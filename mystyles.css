@@ -2,10 +2,10 @@
 
 body {
    margin:0;
+   /* Got picture from pexels.com from eberhard grossgasteiger */
    background-image: url("pink_clouds.jpg");
    background-size: cover;
    background-repeat: no-repeat;
-   /* background-position: center center; */
 }
 
 ul.headNav {
@@ -37,4 +37,8 @@ li a:hover:not(.active) {
 
 .active {
     background-color: #4CAF50;
+}
+
+.center{
+   text-align: center;
 }
