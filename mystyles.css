@@ -2,11 +2,10 @@
 
 body {
    margin:0;
-   background-image: url("pink_clouds.jpg");
+   /*background-image: url("pink_clouds.jpg");*/
    background-size: cover;
    background-repeat: no-repeat;
    background-position: center center;
-   /*opacity: 0.5; Didnt work */
 }
 
 ul.headNav {
