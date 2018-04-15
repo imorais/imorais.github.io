@@ -1,21 +1,37 @@
 <!DOCTYPE html>
 <!-- This is my home page -->
 
+<!--TODO: There is a problem with the image and background. For some reason, the user is allwoed to scroll
+right and, when they do, there is no picture, just my background color is set. But the problem is,
+I don't want the user ot be able to scroll right.-->
+
+<!--TODO: include a footer file to put at the end of every page.-->
+
 <html>
    <head>
       <title>My Website</title>
       <link rel="stylesheet" type="text/css" href="mystyles.css">
       <style>
          h1.heading{
-            text-align: center;
+            /* text-align: center; */
             position: relative;
-            left: 20px;
+            left: 300px;
             margin-top: 60px;
+            font: verdana;
+            font-size: 50px;
          }
          .center{
             text-align: center;
             padding: 100px 0;
             border: 3px solid green;
+         }
+         div.bio{
+            position: absolute;
+            left: 150px;
+            font-size: 22px;
+            width: 550px;
+            height: 500px;
+            /* border: 3px solid #73AD21; */
          }
       </style>
    </head>
@@ -26,7 +42,22 @@
          <li class="headNav"><a href="projects.html">Projects</a></li>
       </ul>
 
-      <h1 class="heading" style="color:#1E90FF">Welcome!</h1>
+      <h1 class="heading">Hi, Visitor!</h1>
+
+      <div class="bio">
+         <p align="center">Welcome to my personal website.</p>
+         <p align="center">My name is Isabel Morais and I am a Computer<br> Science major at Kean University.</p>
+         <p align="center">I am currently in my junior year and plan to graduate in<br> May 2019 with a BS in
+            Computer Science<br> and a minor in Mathematics.</p>
+         <p align="center">Feel free to look around my page under my "About Me" and "Projects" tabs.</p>
+         <p align="center">Please note: This website is currently under development, <br>so some of the links might not work.</p>
+         <p align="center">If you have any questions, my cantact information is located at the bottom of the page.</p>
+      </div>
+
+
+
+
+      <!-- <h1 class="heading" style="color:#1E90FF">Welcome!</h1>
 
       <p class="center">Hello and welcome to my website! My name is Isabel Morais and I am a Computer Science major at Kean University.<br>
       <br>I am currently in my junior year and plan to graduate in May 2019 with a BS in Computer Science and a minor in Mathematics.<br>
@@ -48,6 +79,7 @@
       <section>
          <h3>Welcome to my Page</h3>
          <p>This is my section.</p>
-      </section>
+      </section> -->
+
    </body>
 </html>

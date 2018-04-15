@@ -3,9 +3,12 @@
 body {
    margin:0;
    /* Got picture from pexels.com from eberhard grossgasteiger */
-   background-image: url("pink_clouds.jpg");
+   /* Got picture from pexels.com from pixabay.com */
+   /* background-image: url("pink_clouds.jpg"); */
+   background-image: url("cardboard_robot.jpg");
    background-size: cover;
    background-repeat: no-repeat;
+   background-color: #cc9900;
 }
 
 ul.headNav {
@@ -14,7 +17,7 @@ ul.headNav {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     width: 100%;
 }
