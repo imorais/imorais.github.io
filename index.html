@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <!-- This is my home page -->
 
-<!--TODO: There is a problem with the image and background. For some reason, the user is allwoed to scroll
-right and, when they do, there is no picture, just my background color is set. But the problem is,
-I don't want the user ot be able to scroll right.-->
-
 <!--TODO: include a footer file to put at the end of every page.-->
 
 <html>
    <head>
-      <title>My Website</title>
+      <title>Isabel's Website</title>
       <link rel="stylesheet" type="text/css" href="mystyles.css">
       <style>
          h1.heading{
-            /* text-align: center; */
             position: relative;
             left: 0px;
             margin-top: 60px;
             font: verdana;
             font-size: 50px;
+         }
+         body {
+            margin:0;
+            /* Got picture from pexels.com from pixabay.com */
+            background-image: url("cardboard_robot.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: #cc9900;
          }
          .center{
             text-align: center;
@@ -31,15 +34,15 @@ I don't want the user ot be able to scroll right.-->
             font-size: 22px;
             width: 550px;
             height: 500px;
-            /* border: 3px solid #73AD21; */
          }
       </style>
    </head>
    <body>
       <ul class="headNav">
          <li class="headNav"><a class="active" href="index.html">Home</a></li>
-         <li class="headNav"><a href="aboutme.html">About Me</a></li>
+         <li class="headNav"><a href="aboutMe.html">About Me</a></li>
          <li class="headNav"><a href="projects.html">Projects</a></li>
+         <li class="headNav"><a href="contactMe.html">Contact Me</a></li>
       </ul>
 
       <center><h1 class="heading">Hi, Visitor!</h1></center>
@@ -51,42 +54,16 @@ I don't want the user ot be able to scroll right.-->
             Computer Science<br> and a minor in Mathematics.</p>
          <p align="center">Feel free to look around my page under my "About Me" and "Projects" tabs.</p>
          <p align="center">Please note: This website is currently under development, <br>so some of the links might not work.</p>
-         <p align="center">If you have any questions, my cantact information is located at the bottom of the page.</p>
+         <p align="center">If you have any questions, my contact information is located at the bottom of the page.</p>
       </div>
+
       <div class="footer">
          <footer>
             <p>Contact Information:<br></p>
             <!-- &emsp; adds 4 spaces -->
-            <p>Email: moraisis@kean.edu &emsp; &emsp; &emsp; Github: <a href="github.com/imorais">github.com/imorais</a></p>
+            <p>Email: moraisis@kean.edu &emsp; &emsp; Github: <a href="github.com/imorais">github.com/imorais</a>
+              &emsp; &emsp; <a href="contactMe.html">Email Me!</a> </p><br>
          </footer>
       </div>
-
-
-
-
-      <!-- <h1 class="heading" style="color:#1E90FF">Welcome!</h1>
-
-      <p class="center">Hello and welcome to my website! My name is Isabel Morais and I am a Computer Science major at Kean University.<br>
-      <br>I am currently in my junior year and plan to graduate in May 2019 with a BS in Computer Science and a minor in Mathematics.<br>
-      <br>Feel free to look around my page under my About Me and Projects tabs.<br>
-      <br>If you have any questions, my cantact information is located at the bottom of the page.<br></p>
-
-      <ul>
-         <li>Hey</li>
-         <li>Cool Beans</li>
-         <li>Test 5</li>
-      </ul>
-
-
-      <aside>
-         <p>This is my aside</p>
-         <a href="https://www.instagram.com/izzym432">Look at my Instagram!</a>
-      </aside>
-      <p>This is a test to check if I lost anything</p>
-      <section>
-         <h3>Welcome to my Page</h3>
-         <p>This is my section.</p>
-      </section> -->
-
    </body>
 </html>
