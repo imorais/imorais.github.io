@@ -1,0 +1,89 @@
+<!-- This is my About Me page for my website -->
+
+<!-- TODO:
+1) Add an onverlay to my pic, so when a user hovers over my image, a text will appear. -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About Isabel</title>
+	<link rel="stylesheet" type="text/css" href="mystyles.css">
+	<style>
+		body {
+            margin:0;
+            /* Got picture from pexels.com from pixabay.com */
+            background-image: url("vintage_paper.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-color: #cc9900;
+        }
+        .vertical-menu {
+		    width: 200px;
+		}
+		.vertical-menu a {
+		    background-color: #333;
+		    color: black;
+		    display: block;
+		    padding: 12px;
+		    text-decoration: none;
+		    color: white;
+		}
+		.vertical-menu a:hover {
+		    background-color: #111;
+		}
+		.socialMedMenu {
+			position: absolute;
+			left: 50px;
+			margin-top: 75px;
+		}
+		img {
+			width: 300px;
+			height: 325px;
+		}
+		.picArea {
+			margin-top: 75px;
+			position: absolute;
+			right: 50px;
+		}
+		.info {
+			width: 525px;
+			padding: 10px;
+			border: 3px solid #73AD21;
+			position: absolute;
+			left: 25%;
+			top: 10%;
+			font-size: 18px;
+		}
+	</style>
+</head>
+<body>
+
+	<ul class="headNav">
+         <li class="headNav"><a href="index.html">Home</a></li>
+         <li class="headNav"><a class="active" href="aboutMe.html">About Me</a></li>
+         <li class="headNav"><a href="projects.html">Projects</a></li>
+         <li class="headNav"><a href="contactMe.html">Contact Me</a></li>
+    </ul>
+
+    <div class="picArea">
+    	<img src="myWebPic.jpg" alt="Isabel in her living room">
+    </div>
+
+    <div class="info">
+    	<h1 align="center"><b>Isabel Morais</b></h1><br>
+    	<p>Isabel Morais grew up in Union, New Jersey, attending Union public schools her whole life. Ever since she was little, Isabel has had a drive to do better with herself. From ages 4 to 14, Isabel took TaeKwonDo, earning the rank of 3<sup>rd</sup> degree black belt and a 1<sup>st</sup> degree black belt in Haidong Gumdo, a Korean martial art focued on the sword. She would attend classes five to six times a week. When Isabel turned 14, she made the decision to leave TaeKwonDo to focus on her studies.</p>
+    	<p>Isabel Morais will be a senior at Kean University this upcoming year, graduating in May 2019. She will be graduating with a Bachelor's of Science in Computer Science and a minor in Mathematics.</p>
+    </div>
+
+    <div class="socialMedMenu">
+    	<h1>Social Media</h1>
+
+		<div class="vertical-menu">
+		  <a href="https://github.com/imorais">GitHub</a>
+		  <a href="https://www.instagram.com/izzym432">Instagram</a>
+		</div>
+    </div>
+
+
+</body>
+</html>
