@@ -1,6 +1,6 @@
 /* This is my style sheet for my website */
 
-ul.headNav {
+ul.headNavL {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -11,8 +11,12 @@ ul.headNav {
     width: 100%;
 }
 
-li.headNav {
+li.headNavL {
     float: left;
+}
+
+li.headNavR {
+    float: right;
 }
 
 li a {
